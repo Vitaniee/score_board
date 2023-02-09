@@ -1,9 +1,19 @@
+<!--
+ * @Description: 
+ * @Author: Xinyue Cao
+ * @Date: 2023-02-08 12:12:05
+ * @LastEditTime: 2023-02-09 13:01:13
+ * @LastEditors: Xinyue Cao
+-->
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        
         <div class="container">
+            
+            <div id = "score">
             <div>
                 <h3>HOME</h3>
                 <p id = "homeScore">0</p>
@@ -19,6 +29,11 @@
                 <button onclick = "increment(3,'guest')" class = "button">+3</button>
             </div>
         </div>
+            <button id="reset" onclick = "reset()" class = "button">Reset</button>
+            
+            
+        </div>
+        
         <script src="index.js"></script>
     </body>
 </html>
